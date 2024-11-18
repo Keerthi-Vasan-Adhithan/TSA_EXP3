@@ -11,6 +11,7 @@ type to fit the data.
 4. Store the results in an array
 5. Represent the result in graphical representation as given below.
 ### PROGRAM:
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -68,6 +69,7 @@ variance = np.var(y_test)
 print(f'Mean Absolute Error: {mae:.2f}')
 print(f'Root Mean Squared Error: {rmse:.2f}')
 print(f'Variance of Testing Data: {variance:.2f}')
+```
 
 
 ### OUTPUT:
